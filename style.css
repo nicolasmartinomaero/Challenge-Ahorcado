@@ -1,0 +1,81 @@
+body{
+    background-color: #f3f5fc;
+    margin: 0px;
+}
+
+html{
+    font-size: 16px;
+}
+
+.hombreAhorcado{
+    margin-top: 5rem;
+    width: 100%;
+    text-align: center;
+    height: 45vh;
+   
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 4rem;
+}
+#hombreA{
+    max-width: 100%;
+    max-height: 100%;
+    width: 20rem;
+    height: 20rem;
+    display: inline-block;
+}
+
+.adivino{
+    text-align: center;
+}
+
+.erro{
+    text-align: center;
+    margin-top: 2rem;
+    color: rgb(247, 8, 8);
+    font-size: 25px;
+}
+
+.letraAdivinada{
+    border-bottom: solid 1px blue;
+    margin-right: 10px;
+    display: inline-block;
+    width: 5rem;
+    height: 2rem;
+    vertical-align:middle;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(10, 3, 68);
+}
+
+.botones{
+    text-align: center;
+    margin-top: 32px;
+}
+#btn1{
+    padding: 12px 40px;
+    background-color: rgb(48, 48, 136);
+    color: #f3f5fc;
+    margin-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: rgb(19, 19, 68);
+    cursor: pointer;
+}
+
+
+#btn2{
+    padding: 10px 30px;
+    background-color: rgb(68, 68, 73);
+    color: #f3f5fc;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn2:hover{
+    background-color: rgb(128, 128, 184);
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
