@@ -8,31 +8,25 @@
     <link rel="stylesheet" href="../Challenge-Ahorcado/style.css">
 </head>
 <body>
-    <div class="hombreAhorcado">
-        <img id="hombreA" src="../Challenge-Ahorcado/imagenes/Imagen1.png" alt="hombre ahorcado">
-    </div>
+<img id="logo" src="../Challenge-Ahorcado/imagenes/logo.png" alt="Logo Alura">
+<div id="div-desaparece" class="btn-home">
+    <input class="btn-iniciar" type="button" value="iniciar juego" id="inicioJuego" onclick="iniciarJuego()"> 
 
-    <div class="adivino">
-        <span class="letraAdivinada">A</span>
-        <span class="letraAdivinada">L</span>
-        <span class="letraAdivinada">U</span>
-        <span class="letraAdivinada">R</span>
-        <span class="letraAdivinada">A</span>
-    </div>
+    <img id="imagen" src="../Challenge-Ahorcado/imagenes/0.png" alt="">
 
-    <div class="erro">
-        <span>K</span>
-        <span>J</span>
-        <span>I</span>
-        <span>O</span>
-        <span>X</span>
-    </div>
+<div id="letrasUsadas"></div>
+<div id="palabraAdivinando"> </div>
+<input type="text" id="letra" placeholder="Escribre la letra">
+<input type="button" value="comprobar" id="botonComprobar" onclick="comprobar()">
+<button onclick="location.href = location.href" id="botonReinicio"> Reiniciar </button>
+<div>
 
-    <div class="botones">
-<input id="btn1" type="button" value="Nuevo Juego">
-<input id="btn2" type="button" value="Desistir">
-    </div>
+</div>
+</div>
 
-</body>
+
+
 <script src="../Challenge-Ahorcado/codigo.js"></script>
+</body>
+
 </html>
