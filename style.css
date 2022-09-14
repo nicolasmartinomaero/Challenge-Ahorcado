@@ -8,6 +8,15 @@ body{
     background-color: rgb(165, 165, 165);
 }
 
+#letrasUsadas{
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 460px;
+    padding: 10px 100px;
+    background-color: rgb(165, 165, 165);
+    border: none;
+    color: black;
+}
 #logo{
     position: absolute;
     margin: 25px 40px;

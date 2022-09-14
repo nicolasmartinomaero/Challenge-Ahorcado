@@ -36,6 +36,7 @@ function comprobar(){
     let acerto = false;
     let letra = document.getElementById("letra").value.toUpperCase();
     let nuevo = "";
+    let usada = "";
     for( let i = 0; i < palabraSecreta.length; i++){
         if(letra == palabraSecreta[i]){
             nuevo = nuevo + letra + " ";
