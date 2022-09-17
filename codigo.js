@@ -1,6 +1,6 @@
 
 //PALABRAS DEL JUEGO Y SELECTORES
-let palabras = ["COMIDA","ORACLE","GIMNASIO","LADRON","PARMESANO","VENTILADOR"];
+let palabras = ["COMIDA","ORACLE","HTML","LADRON","MONEDA","GORRA"];
 let palabraSecreta = "";
 let palabraAdivinando = "";
 let vidas = 6;
@@ -32,6 +32,7 @@ document.getElementById("imagen").style.display = "block";
 
 let errores = 0;
 let aciertos = 0;
+
 function comprobar(){
     let acerto = false;
     let letra = document.getElementById("letra").value.toUpperCase();
@@ -64,7 +65,12 @@ function comprobar(){
         document.getElementById("botonComprobar").style.display = "none";
         document.getElementById("botonReinicio").style.display = "block";
     } else if(aciertos == palabraSecreta.length) {
-        alert("GANASTE CAPO")
+        document.getElementById("botonReinicio").style.display = "block";
+        document.getElementById("ganaste").style.display="block";
+        document.getElementById("palabraAdivinando").style.display = "none";
+        document.getElementById("letra").style.display = "none";
+        document.getElementById("botonComprobar").style.display = "none";
+        document.getElementById("imagen").style.display="none";
     }
 }
 

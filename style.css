@@ -67,6 +67,12 @@ body{
     
 }
 
+#ganaste{
+    width: 900px;
+    position: absolute;
+    margin: 200px;
+    display: none;
+}
 
 #palabraAdivinando{
  
